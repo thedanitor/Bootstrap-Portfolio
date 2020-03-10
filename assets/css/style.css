@@ -1,0 +1,13 @@
+#DanPhoto {
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+}
