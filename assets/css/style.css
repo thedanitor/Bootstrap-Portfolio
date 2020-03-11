@@ -1,13 +1,18 @@
 body {
     background: url('assets\images\oriental-tiles.png');
     background-size: cover;
-    color: #77777
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    }
+a {
+    font-weight: bold;
+}
+
 
 #DanPhoto {
     width: 40%;
     float: left;
-    margin: 20px;
+    margin: 10px 20px 10px 10px;
 }
 
 .clearfix {
@@ -16,14 +21,31 @@ body {
 .heading {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     color:  #4aaaa5;
+    font-weight: bold;
+    padding: 0px 20px;
 }
 
+.danFont {
+    color: #ffffff;
+    font-weight: bold;
+}
 .navbar-brand {
     background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 10px;
+    
+    padding: 0px 20px;
 }
 
 .container .card {
     max-width: 960px;
+    margin-top: 50px;
 }
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-style: inset; */
+    border-width: 1px;
+    color: #777777;
+  } 
