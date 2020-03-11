@@ -1,8 +1,14 @@
 body {
-    background: url('assets\images\oriental-tiles.png');
-    background-size: cover;
+    background: url(../images/oriental-tiles.jpg);
+    background-repeat: repeat;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+/* 
+    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed; */
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; */
    }
 a {
     font-weight: bold;
@@ -31,8 +37,8 @@ a {
 }
 .navbar-brand {
     background-color: #4aaaa5;
-    
-    padding: 0px 20px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    padding: 0px 25px;
 }
 
 .container .card {
