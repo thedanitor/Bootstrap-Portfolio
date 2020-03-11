@@ -1,17 +1,29 @@
+body {
+    background: url('assets\images\oriental-tiles.png');
+    background-size: cover;
+    color: #77777
+   }
+
 #DanPhoto {
     width: 40%;
     float: left;
-    padding: 20px;
+    margin: 20px;
 }
 
 .clearfix {
     overflow: auto;
 }
+.heading {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color:  #4aaaa5;
+}
 
 .navbar-brand {
     background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
 }
-body {
-    background-image: url("/assets/images/oriental-tiles.jpg");
-    background-size: cover;
-   }
+
+.container .card {
+    max-width: 960px;
+}
