@@ -3,27 +3,11 @@ body {
     background-repeat: repeat;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-/* 
-    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed; */
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover; */
    }
 a {
     font-weight: bold;
 }
 
-
-#DanPhoto {
-    width: 40%;
-    float: left;
-    margin: 10px 20px 10px 10px;
-}
-
-.clearfix {
-    overflow: auto;
-}
 .heading {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     color:  #4aaaa5;
@@ -51,8 +35,56 @@ hr {
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
-    /* border-style: inset; */
     border-width: 1px;
     color: #777777;
   } 
-  @media only screen and (max-width: 575px)
+@media only screen and (max-width: 575px){
+
+   .photo {
+        width: 80%;
+        display:block;
+        float: none;
+        margin:0 auto 20px;
+    }
+}
+
+@media only screen and (min-width: 576px){
+
+    .photo {
+        width: 50%;
+        float: left;
+        margin: 10px 20px 10px 10px;
+    }
+    .clearfix {
+        overflow: auto;    
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+
+    .photo {
+        width: 40%;
+        float: left;
+        margin: 10px 20px 10px 10px;
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px){
+    
+    .photo {
+        width: 40%;
+        float: left;
+        margin: 10px 20px 10px 10px;
+    }
+    
+    .clearfix {
+        overflow: auto;
+    }
+    
+}
