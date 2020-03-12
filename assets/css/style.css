@@ -1,5 +1,5 @@
 body {
-    background: url(../images/oriental-tiles.jpg);
+    background: url(../images/qbkls.png);
     background-repeat: repeat;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -55,3 +55,4 @@ hr {
     border-width: 1px;
     color: #777777;
   } 
+  @media only screen and (max-width: 575px)
