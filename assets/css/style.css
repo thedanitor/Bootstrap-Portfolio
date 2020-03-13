@@ -13,9 +13,10 @@ footer {
     background-color: #666666;
 }
 
-/* img {
-    margin: 20px;
-} */
+img {
+    padding: 20px;
+    width: 50%;
+}
 
 .heading {
     font-family: 'Georgia', Times, "Times New Roman", serif;
@@ -75,6 +76,9 @@ label {
         float: none;
         margin:0 auto 20px;
     }
+    img {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 576px){
@@ -86,6 +90,9 @@ label {
     }
     .clearfix {
         overflow: auto;    
+    }
+    img {
+        width: 100%;
     }
 }
 
@@ -101,6 +108,9 @@ label {
     .clearfix {
         overflow: auto;
     }
+    img {
+        width: 50%;
+    }
 
 }
 
@@ -115,5 +125,7 @@ label {
     .clearfix {
         overflow: auto;
     }
-    
+    img {
+        width: 50%;
+    }
 }
