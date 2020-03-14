@@ -4,13 +4,13 @@ html {
   }
 
 body {
-    background: url(../images/white-waves.png);
+    background: url(../images/papyrus.png);
     background-repeat: repeat;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border-color: #dddddd;
-    /* margin-bottom: 50px; */
+    /* border-color: #dddddd; */
    }
+
 a {
     font-weight: bold;
 }
