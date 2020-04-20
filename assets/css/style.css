@@ -3,6 +3,17 @@ html {
     min-height: 100%;
   }
 
+.container .card {
+    max-width: 960px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: rgb(119, 119, 119, 0.0);
+   
+}
+/* .card-body {
+    opacity: 0.4;
+} */
+
 body {
     background: url(../images/papyrus.png);
     background-repeat: repeat;
@@ -24,10 +35,7 @@ footer {
     height: 50px;
 }
 
-img {
-    padding: 20px;
-    width: 50%;
-}
+
 
 .heading {
     font-family: 'Georgia', Times, "Times New Roman", serif;
@@ -35,6 +43,7 @@ img {
     font-weight: bold;
     padding: 0px 20px;
     border-color: #cccccc;
+
 }
 
 .danFont {
@@ -47,12 +56,13 @@ img {
     padding: 0px 25px;
 }
 
-.container .card {
-    max-width: 960px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    background-color: #777777;
+
+img {
+    padding: 20px;
+    width: 50%;
+    opacity: 1;
 }
+
 hr { 
     display: block;
     margin-top: 0.5em;
@@ -64,6 +74,7 @@ hr {
   } 
 .form-group {
     border-color:  #777777;
+    opacity: 1;
 }
 
 label {
