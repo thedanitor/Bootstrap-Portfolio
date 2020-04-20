@@ -51,6 +51,7 @@ img {
     max-width: 960px;
     margin-top: 50px;
     margin-bottom: 100px;
+    background-color: #777777;
 }
 hr { 
     display: block;
