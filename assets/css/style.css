@@ -15,6 +15,7 @@ a {
 }
 
 footer {
+    color: #777777;
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
     position: fixed;
