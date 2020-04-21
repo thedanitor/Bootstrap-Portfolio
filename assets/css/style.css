@@ -10,9 +10,9 @@ html {
     background-color: rgb(119, 119, 119, 0.0);
    
 }
-/* .card-body {
-    opacity: 0.4;
-} */
+
+
+
 
 body {
     background: url(../images/papyrus.png);
@@ -91,6 +91,15 @@ label {
     border-color:  #777777;
     color: #4aaaa5;
 }
+
+.fa-github {
+    color: white;
+}
+
+.fa-linkedin {
+    color: #0077B5;
+}
+
 @media only screen and (max-width: 575px){
 
    .photo {
