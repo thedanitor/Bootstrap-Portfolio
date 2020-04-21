@@ -15,3 +15,5 @@ This site will be updated as I create more projects and have more tools to showc
 <!-- https://jonny.me/ -->
 
 <!-- modal for site info, tooltips for links -->
+
+<!-- button still blue after click -->
