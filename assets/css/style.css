@@ -8,11 +8,7 @@ html {
     margin-top: 50px;
     margin-bottom: 100px;
     background-color: rgb(119, 119, 119, 0.0);
-   
 }
-
-
-
 
 body {
     background: url(../images/papyrus.png);
@@ -35,21 +31,19 @@ footer {
     height: 50px;
 }
 
-
-
 .heading {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     color:  #4aaaa5;
     font-weight: bold;
     padding: 0px 20px;
     border-color: #cccccc;
-
 }
 
 .danFont {
     color: #ffffff;
     font-weight: bold;
 }
+
 .navbar-brand {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, "Times New Roman", serif;
@@ -94,9 +88,6 @@ label {
 
 .imgContainer {
     position: relative;
-    /* width: 50%; */
-    /* padding: 20px; */
-    /* width: 50%; */
     opacity: 1;
 }
 
@@ -115,27 +106,59 @@ label {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: 0.5s ease;
-    /* background-color: white; */
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
 }
 .imgContainer:hover .overlay {
     opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
   }
 
+.imgContainer:hover .text {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.imgContainer:hover .portfoliobtn {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .imgContainer:hover .img {
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 .text {
     color: black;
-    font-size: 20px;
+    font-size: 32px;
+    font-weight: bold;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     text-align: center;
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+  }
+
+  .portfoliobtn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
   }
 
 .fa-github {

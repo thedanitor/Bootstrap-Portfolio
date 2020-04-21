@@ -13,3 +13,5 @@ This site will be updated as I create more projects and have more tools to showc
 
 <!-- dynamically add elements/pages http://www.emilyridge.ie/-->
 <!-- https://jonny.me/ -->
+
+<!-- modal for site info, tooltips for links -->
