@@ -43,7 +43,11 @@ i {
     background: rgba(0,0,0,0.001) !important;
     
 }
-.nav-link {
+.nav-link{
+    color: #FEF728 !important;
+}
+
+.fa-hamburger {
     color: #FEF728 !important;
 }
 
