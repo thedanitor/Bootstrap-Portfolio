@@ -1,178 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio - Dan Weikart</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand heading mr-auto" href="#">
-                <h1 class="danFont">Dan Weikart</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse my-navbar-col-md-3" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="index.html#about">About<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="index.html#portfolio">Portfolio</a>
-                    <a class="nav-item nav-link" href="index.html#contact">Contact</a>
-                </div>
-            </div>
+  </head>
+  <body>
+    <nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- <a class="navbar-brand heading mr-auto" href="#">
+          <h1 class="danFont">Dan Weikart</h1>
+        </a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse my-navbar-col-md-3"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="index.html#about"
+              >About<span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="index.html#portfolio"
+              >Portfolio</a
+            >
+            <a class="nav-item nav-link" href="index.html#contact">Contact</a>
+          </div>
         </div>
+      </div>
     </nav>
-    <div id="about" class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div>
-                            <h1 class="heading">About Me</h1>
-                        </div>   
-                        <hr>
-                        <div class="clearfix">
-                            <img class="photo" src="assets/images/Dan_Clipper_twoFirst.gif" data-still="assets/images/Dan_Clipper_twoFirst.gif" data-animate="assets/images/Dan_Clipper_rev.gif" data-state="still" alt="Dan Weikart on a boat"/>                        
-                            <section class="AboutMeText">
-                                <p>
-                                Hello. I am an analytical chemist who is looking to become a web developer. 
-                                My current career requires me to employ my critial thinking, troubleshooting, and problem-solving abilities constantly. 
-                                But I am searching for something that will encourage me to utilize my creative side as well. 
-                                </p>
-                                <p>
-                                My hobbies include hiking, camping, biking, reading, playing and listening to music, cooking, and checking out new breweries.
-                                It would be my dream to work for an organization in one of these disciplines.
-                                </p>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-    <div id="portfolio" class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card">
-              <div class="card-body">
-                <div>
-                  <h1 class="heading">Portfolio</h1>
-                </div>
-                <hr />
-                    <div class="row">
-                  <div class="imgContainer col-lg-6">
-                    <img
-                      id="fearSetting"
-                      src="assets/images/fearSetting_4-3.png"
-                      class="img fluid float-left"
-                      alt="Fear Setting Website"
-                    />
-                    <div class="overlay">
-                      <div class="text">Fear Setting</div>
-                      <button type="submit" class="portfoliobtn btn btn-primary btn-lg rounded-0" data-toggle="modal" data-target="#fearSetterModal">Explore</button>
-                    </div>
-                  </div>
-                <div class="imgContainer col-lg-6">
-                    <img
-                      id="weatherDashboard"
-                      src="assets/images/weatherDashboard_4-3.png"
-                      class="img fluid float-left"
-                      alt="Weather Dashboard App"
-                    />
-                    <div class="overlay">
-                      <div class="text">Weather Dashboard</div>
-                    </div>
-                  </div>
-                <div class="imgContainer col-lg-6">
-                    <img
-                      id="dayPlanner"
-                      src="assets/images/dayPlanner_4-3.png"
-                      class="img fluid float-left"
-                      alt="Wordkday Scheduler App"
-                    />
-                    <div class="overlay">
-                      <div class="text">Workday Planner</div>
-                    </div>
-                  </div>
-              </div>
-              </div>
-              
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="fearSetterModal" tabindex="-1" role="dialog" aria-labelledby="fearSetterModalTitle" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="fearSetterModalTitle">Fear Setter</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                  <div class="card bg-dark text-primary">
-                      <img src="assets/images/fearSetting_Home_wide.png" class="card-img" alt="...">
-                      <div class="card-img-overlay"> 
-                        <!-- <h5 class="card-title">Card title</h5> -->
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">View Website</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="contact" class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="card">
-                  <div class="card-body">
-                    <div>
-                      <h1 class="heading">Contact</h1>
-                    </div>   
-                    <hr>
-                    <form>
-                      <div class="form-group">
-                        <label for="exampleFormControlInput1">Name</label>
-                          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Last">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlInput2">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary btn-lg rounded-0">Submit</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> 
-    <footer class="page-footer font-small">
+    <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <div class="footer-copyright text-center py-3">
-                <a href="https://github.com/thedanitor"><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
-                <a href="https://www.linkedin.com/in/dan-weikart-64702a1a3/"><i class="fab fa-linkedin" data-toggle="tooltip" data-placement="top" title="linkedIn"></i></a>
-               <p> © 2020 Copyright: Dan Weikart</p>
+          <a class="navbar-brand heading mr-auto" href="#">
+            <h1 class="danFont">Dan Weikart</h1>
+          </a>
+          <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse my-navbar-col-md-3"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active" href="index.html#about"
+                >About<span class="sr-only">(current)</span></a
+              >
+              <a class="nav-item nav-link" href="index.html#portfolio"
+                >Portfolio</a
+              >
+              <a class="nav-item nav-link" href="index.html#contact">Contact</a>
             </div>
+          </div> -->
         </div>
-    </footer>  
+      </nav>
+    <div id="about" class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <div>
+                <h1 class="heading">About Me</h1>
+              </div>
+              <hr />
+              <div class="clearfix">
+                <img
+                  class="photo"
+                  src="assets/images/Dan_Clipper_twoFirst.gif"
+                  data-still="assets/images/Dan_Clipper_twoFirst.gif"
+                  data-animate="assets/images/Dan_Clipper_rev.gif"
+                  data-state="still"
+                  alt="Dan Weikart on a boat"
+                />
+                <section class="AboutMeText">
+                  <p>
+                    Hello. I am an analytical chemist who is looking to become a
+                    web developer. My current career requires me to employ my
+                    critial thinking, troubleshooting, and problem-solving
+                    abilities constantly. But I am searching for something that
+                    will encourage me to utilize my creative side as well.
+                  </p>
+                  <p>
+                    I am currently enrolled in University of Washington's Coding
+                    Bootcamp for full-stack web development. I have learned so
+                    much in the past few months and I know I have a lot more to
+                    learn.
+                  </p>
+                  <p>
+                    My hobbies include hiking, camping, biking, reading, playing
+                    and listening to music, cooking, and checking out new
+                    breweries. It would be my dream to incorporate these
+                    passions into my work.
+                  </p>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio" class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <div>
+                <h1 class="heading">Portfolio</h1>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="imgContainer col-lg-6">
+                  <img
+                    id="fearSetting"
+                    src="assets/images/fearSetting_4-3.png"
+                    class="img fluid float-left"
+                    alt="Fear Setting Website"
+                  />
+                  <div class="overlay">
+                    <div class="text">Fear Setting</div>
+                    <button
+                      type="submit"
+                      class="portfoliobtn btn btn-primary btn-lg rounded-0"
+                      data-toggle="modal"
+                      data-target="#fearSetterModal"
+                    >
+                      Explore
+                    </button>
+                  </div>
+                </div>
+                <div class="imgContainer col-lg-6">
+                  <img
+                    id="weatherDashboard"
+                    src="assets/images/weatherDashboard_4-3.png"
+                    class="img fluid float-left"
+                    alt="Weather Dashboard App"
+                  />
+                  <div class="overlay">
+                    <div class="text">Weather Dashboard</div>
+                  </div>
+                </div>
+                <div class="imgContainer col-lg-6">
+                  <img
+                    id="dayPlanner"
+                    src="assets/images/dayPlanner_4-3.png"
+                    class="img fluid float-left"
+                    alt="Wordkday Scheduler App"
+                  />
+                  <div class="overlay">
+                    <div class="text">Workday Planner</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="fearSetterModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="fearSetterModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="fearSetterModalTitle">Fear Setter</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="card bg-dark text-primary">
+              <img
+                src="assets/images/fearSetting_Home_wide.png"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">View Website</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <div>
+                <h1 class="heading">Contact</h1>
+              </div>
+              <hr />
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="First Last"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput2">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput2"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg rounded-0">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer font-small">
+      <div class="container">
+        <div class="footer-copyright text-center py-3">
+          <a href="https://github.com/thedanitor"
+            ><i
+              class="fab fa-github"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Github"
+            ></i
+          ></a>
+          <a href="https://www.linkedin.com/in/dan-weikart-64702a1a3/"
+            ><i
+              class="fab fa-linkedin"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="linkedIn"
+            ></i
+          ></a>
+          <p>© 2020 Copyright: Dan Weikart</p>
+        </div>
+      </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
-    <script src="https://kit.fontawesome.com/8862e16faa.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
-</body>
+    <script
+      src="https://kit.fontawesome.com/8862e16faa.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

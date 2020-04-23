@@ -37,6 +37,10 @@ i {
     padding-right: 10px;
 }
 
+.navbar {
+    background: rgba(0,0,0,0.001) !important;
+}
+
 .heading {
     /* font-family: 'Georgia', Times, "Times New Roman", serif; */
     font-family: 'Orbitron', sans-serif;
