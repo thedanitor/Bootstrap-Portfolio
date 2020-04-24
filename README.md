@@ -17,3 +17,9 @@ This site will be updated as I create more projects and have more tools to showc
 <!-- modal for site info, tooltips for links -->
 
 <!-- button still blue after click -->
+
+https://css-tricks.com/snippets/css/typewriter-effect/
+
+https://www.w3schools.com/css/css3_animations.asp
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation

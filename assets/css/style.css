@@ -63,24 +63,46 @@ i {
     font-family: 'Press Start 2P', cursive;
 }
 
-.danFont {
-    color:  #33FF00 !important;
-    font-weight: bold;
+#danFont {
+    color:  #33FF00;
 }
 
+#danFont {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #33FF00; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 1.5s steps(40, end),
+      blink-caret .75s step-end 13,
+      blink-caret-disappear 1s linear 9750ms infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #33FF00; }
+  }
+  @keyframes blink-caret-disappear {
+    from, to { border-color: transparent }
+    100% { border-color: transparent; }
+  }
+
+
 .navbar-brand {
-    /* background-color: #4aaaa5; */
-    background-image: linear-gradient(#1F7DFF, #51FFCC);
-   
-    /* font-family: 'Georgia', Times, "Times New Roman", serif; */
     font-family: 'Press Start 2P', cursive;
-    /* font-family: 'Orbitron', sans-serif; */
     padding: 0px 25px;
 }
 
 
 img {
-    /* padding: 20px; */
     width: 50%;
     opacity: 1;
 }
@@ -146,27 +168,18 @@ label {
     -ms-transition: all 500ms ease-in-out;
     z-index: 2;
 }
-.imgContainer:hover .overlay 
-/* .overlay:hover */
-{
+.imgContainer:hover .overlay {
     opacity: 1;
     transition-delay: 0s;
     transition-duration: 500ms;
   }
 
-.imgContainer:hover .text 
-/* .overlay:hover .text */
-{
+.imgContainer:hover .text {
     opacity: 1;
     color: blue;
+    font-size: 25px;
     transition-delay: 0s;
     transition-duration: 500ms;
-    /* -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
-    /* left: 50%; */
-    /* text-align: center; */
-    /* transform: translate(130px, 100px); */
     top: 35%;
     left: 15%;
 }
@@ -175,9 +188,6 @@ label {
     opacity: 1;
     transition-delay: 0s;
     transition-duration: 500ms;
-    /* -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
 }
 
 .imgContainer:hover .img {
@@ -185,18 +195,14 @@ label {
 }
 
 .overlay .text {
-    color: red;
-    font-size: 32px;
+    color: blue;
+    font-size: 16px;
     font-weight: bold;
     position: absolute;
     width: 70%;
-
-    /* top: 30%; */
-    /* left: 50%; */
-    /* transform: translate(130px, 50px); */
+    top: 10%;
+    left: 15%;
     text-align: center;
-    /* transform: translateY(150px);
-    -webkit-transform: translateY(150px); */
   }
 
   .overlay .portfoliobtn {
@@ -204,6 +210,7 @@ label {
     top: 60%;
     left: 50%;
     text-align: center;
+    
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -212,8 +219,8 @@ label {
     background-image: linear-gradient(#1F7DFF, #51FFCC);
 }
 i {
-    -webkit-transition: -webkit-transform .8s ease-in-out;
-    transition:         transform .8s ease-in-out;
+    -webkit-transition: -webkit-transform 300ms ease-in;
+    transition:         transform 300ms ease-in;
 }
 i:hover {
     -webkit-transform: rotate(360deg);
@@ -228,10 +235,30 @@ i:hover {
     color: #0077B5;
 }
 
+
+#about, #portfolio, #contact {
+    /* animation-name: appear;
+    animation-duration: 5s;
+    animation-delay: 5s; */
+    animation: 
+        appear 10s ease-out 2s,
+        noshow 2s
+}
+
+@keyframes appear {
+    from, to { opacity: 0 }
+    100% { opacity: 1 };
+  }
+
+@keyframes noshow {
+    from, to { opacity: 0 }
+    100% { opacity: 0 };
+  }
+
 @media only screen and (max-width: 575px){
 
    .photo {
-        width: 80%;
+        width: 60%;
         display:block;
         float: none;
         margin:0 auto 20px;
@@ -244,7 +271,7 @@ i:hover {
 @media only screen and (min-width: 576px){
 
     .photo {
-        width: 50%;
+        width: 40%;
         float: left;
         margin: 10px 20px 10px 10px;
     }
@@ -260,7 +287,7 @@ i:hover {
 
 
     .photo {
-        width: 40%;
+        width: 30%;
         float: left;
         margin: 10px 20px 10px 10px;
     }
@@ -277,7 +304,7 @@ i:hover {
 @media only screen and (min-width: 992px){
     
     .photo {
-        width: 40%;
+        width: 30%;
         float: left;
         margin: 10px 20px 10px 10px;
     }
