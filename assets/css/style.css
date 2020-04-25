@@ -235,12 +235,20 @@ i:hover {
     color: #0077B5;
 }
 
+.fa-file-pdf {
+    color: #E81B0A;
+}
 
-#about, #portfolio, #contact, #menu {
+.fa-envelope-open-text {
+    color: #3E5DE8;
+}
+
+
+/* #about, #portfolio, #contact, #menu {
     animation: 
         appear 10s ease-out 2s,
         noshow 2s
-}
+} */
 
 @keyframes appear {
     from, to { opacity: 0 }
