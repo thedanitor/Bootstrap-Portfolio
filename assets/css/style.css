@@ -127,14 +127,14 @@ img {
 }
 
 .btn {
-  background-color: #4aaaa5;
-  border-color: #4aaaa5;
+  background-color: #2D882D;
+  border-color:  #2D882D;
   color: #ffffff;
 }
 .btn:hover {
   background-color: #ffffff;
   border-color: #777777;
-  color: #4aaaa5;
+  color:  #2D882D;
 }
 
 .photo {
@@ -217,9 +217,8 @@ img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.modal {
-    background-image: url("assets/images/fearSetting_Home_wide.png");
-  /* background-image: linear-gradient(#000000,
+.modal-content {
+  background-image: linear-gradient(#000000,
   #080d0d,
   #0f1a1a,
   #172727,
@@ -229,8 +228,22 @@ img {
   #355b5b,
   #3d6767,
   #447474
-  ); */
+  );
+  color: black;
 }
+
+.modal-title {
+    color:  #2D882D;
+}
+
+.card-title {
+    color: black;
+}
+
+.card-text {
+    color: black;
+}
+
 i {
   -webkit-transition: -webkit-transform 300ms ease-in;
   transition: transform 300ms ease-in;
