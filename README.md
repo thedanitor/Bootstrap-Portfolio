@@ -7,16 +7,6 @@ Instructions were to design a responsive portfolio website using bootstrap to lo
 This site will be updated as I create more projects and have more tools to showcase.
 
 
-<!-- Site name when mouseover portfolio images    http://findmatthew.com/ -->
-
-<!-- icons for github, linkedin -->
-
-<!-- dynamically add elements/pages http://www.emilyridge.ie/-->
-<!-- https://jonny.me/ -->
-
-<!-- modal for site info, tooltips for links -->
-
-<!-- button still blue after click -->
 
 https://css-tricks.com/snippets/css/typewriter-effect/
 

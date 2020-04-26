@@ -23,8 +23,8 @@ body {
     #3d6767,
     #447474
   );
-  color: #2D882D;
-  font-family: 'Quantico', sans-serif;
+  color: #2d882d;
+  font-family: "Quantico", sans-serif;
 }
 
 a {
@@ -40,7 +40,7 @@ footer {
 }
 
 footer p {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 i {
@@ -51,14 +51,14 @@ i {
 .navbar {
   background: rgba(0, 0, 0, 0.001) !important;
 }
+
 .nav-link {
-  /* color: #fef728 !important; */
-  color: #2D882D !important;
+  color: #2d882d !important;
 }
+
 .nav-link:hover {
-    color: #fef728 !important;
-    /* color: #2D882D !important; */
-  }
+  color: #fef728 !important;
+}
 
 .fa-hamburger {
   color: #fef728 !important;
@@ -70,17 +70,16 @@ i {
 }
 
 #danFont {
-  color: #2D882D;
+  color: #2d882d;
 }
 
 #danFont {
-  overflow: hidden; 
-  border-right: 0.15em solid #2D882D;; 
+  overflow: hidden;
+  border-right: 0.15em solid #2d882d;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15em;
-  animation: 
-    typing 1.5s steps(40, end), blink-caret 0.75s step-end 13,
+  animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end 13,
     blink-caret-disappear 1s linear 9750ms infinite;
 }
 
@@ -99,7 +98,7 @@ i {
     border-color: transparent;
   }
   50% {
-    border-color: #2D882D;
+    border-color: #2d882d;
   }
 }
 @keyframes blink-caret-disappear {
@@ -114,11 +113,9 @@ i {
 
 .navbar-brand {
   font-family: "Press Start 2P", cursive;
-/* font-family: 'Play', sans-serif; */
-/* font-family: 'Quantico', sans-serif; */
   padding: 0px 25px;
   font-size: 40px;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 img {
@@ -127,14 +124,14 @@ img {
 }
 
 .btn {
-  background-color: #2D882D;
-  border-color:  #2D882D;
+  background-color: #2d882d;
+  border-color: #2d882d;
   color: #ffffff;
 }
 .btn:hover {
   background-color: #ffffff;
   border-color: #777777;
-  color:  #2D882D;
+  color: #2d882d;
 }
 
 .photo {
@@ -178,7 +175,6 @@ img {
 
 .imgContainer:hover .text {
   opacity: 1;
-  /* color: blue; */
   font-size: 25px;
   transition-delay: 0s;
   transition-duration: 500ms;
@@ -218,36 +214,40 @@ img {
   transform: translate(-50%, -50%);
 }
 .modal-content {
-  background-image: linear-gradient(#000000,
-  #080d0d,
-  #0f1a1a,
-  #172727,
-  #1e3434,
-  #264141,
-  #2d4e4e,
-  #355b5b,
-  #3d6767,
-  #447474
+  background-image: linear-gradient(
+    #000000,
+    #080d0d,
+    #0f1a1a,
+    #172727,
+    #1e3434,
+    #264141,
+    #2d4e4e,
+    #355b5b,
+    #3d6767,
+    #447474
   );
-  color: black;
 }
 
 .modal-title {
-    color:  #2D882D;
+  color: #2d882d;
+  font-weight: bold;
+}
+
+.modal-footer {
+  color: black;
+  font-weight: bold;
 }
 
 .card-title {
-    color: black;
-}
-
-.card-text {
-    color: black;
+  color: #2d882d;
+  font-weight: bold;
 }
 
 i {
   -webkit-transition: -webkit-transform 300ms ease-in;
   transition: transform 300ms ease-in;
 }
+
 i:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -269,11 +269,12 @@ i:hover {
   color: #3e5de8;
 }
 
-/* #about, #portfolio, #contact, #menu {
-    animation: 
-        appear 10s ease-out 2s,
-        noshow 2s
-} */
+#about,
+#portfolio,
+#contact,
+#menu {
+  animation: appear 10s ease-out 2s, noshow 2s;
+}
 
 @keyframes appear {
   from,
