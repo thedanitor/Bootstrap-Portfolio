@@ -74,7 +74,7 @@ i {
   color: #2d882d;
 }
 
-/* #danFont {
+#danFont {
   overflow: hidden;
   border-right: 0.15em solid #2d882d;
   white-space: nowrap;
@@ -82,7 +82,7 @@ i {
   letter-spacing: 0.15em;
   animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end 13,
     blink-caret-disappear 1s linear 9750ms infinite;
-} */
+}
 
 @keyframes typing {
   from {
@@ -270,7 +270,7 @@ i:hover {
   color: #3e5de8;
 }
 
-/* #about,
+#about,
 #portfolio,
 #contact,
 #menu {
@@ -295,7 +295,7 @@ i:hover {
   100% {
     opacity: 0;
   }
-} */
+}
 
 @media only screen and (max-width: 575px) {
   .photo {
